@@ -8,23 +8,23 @@
     <description>OneStep 更新源</description>
     <language>zh-CN</language>
     <item>
-      <title>1.0</title>
-      <pubDate>Mon, 19 Oct 2026 16:27:00 +0000</pubDate>
-      <sparkle:version>2</sparkle:version>
-      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+      <title>1.0.1</title>
+      <pubDate>Mon, 19 Oct 2026 16:44:00 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <p>1.0 正式版</p>
+        <p>1.0.1 更新</p>
         <ul>
-          <li>新增「功能显示」：顶部指标与一级功能可逐项显隐</li>
-          <li>菜单栏读数改为单选：电量 / 网速 / CPU 温度</li>
-          <li>内置检查更新与自动更新</li>
+          <li>更新与权限弹窗改用简体中文</li>
+          <li>修复更新窗口中的应用图标显示</li>
+          <li>移除关于页底部说明文字</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.0/OneStep-1.0.zip"
-        sparkle:edSignature="aK3CJt5R5WMu3vQ4ecbb9W13KENsRRrM6KU1ZZDN2/5tRprNKzdd8nU6ow19sOG2GkyTHbucSMkdItA3j4ekAg=="
-        length="4787407"
+        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.1/OneStep-1.0.1.zip"
+        sparkle:edSignature="/7mHQ2goITmn+AJJlOuKrkcSblEPoDSuEAmVAc8u0PmF2cHBfs4HIMQAqJGq+3k+C7lgR7qzOuYd9YM5cTJnAQ=="
+        length="4787319"
         type="application/octet-stream" />
     </item>
   </channel>
