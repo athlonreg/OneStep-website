@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OneStep · macOS 菜单栏全能工具箱</title>
+<meta name="description" content="OneStep 是一款 macOS 菜单栏聚合工具：风扇监控、电池、网络、蓝牙、声音控制，内置 33 个开发者小工具。一处查看，一处管理。">
+<meta property="og:title" content="OneStep · macOS 菜单栏全能工具箱">
+<meta property="og:description" content="风扇监控 · 电池 · 网络 · 蓝牙 · 声音控制 + 33 个开发者小工具">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡️</text></svg>">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">⚡</span>
+      <span>OneStep</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features">功能</a>
+      <a href="#toolbox">工具箱</a>
+      <a href="#license">授权</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="#download">下载</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <span class="pill">macOS 14+ · 菜单栏常驻</span>
+        <h1>一个菜单栏，<br><span class="grad">看清并管好这台 Mac</span></h1>
+        <p class="lede">
+          温度、转速、电池、网络、蓝牙、声音，全部收进一个下拉面板；
+          顺手内置 <strong>33 个开发者小工具</strong>，免装免配置、离线可用。
+        </p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#download">免费下载</a>
+          <a class="btn btn-ghost" href="#features">看看能干什么</a>
+        </div>
+        <p class="micro">首次安装赠送 <strong>7 天完整试用</strong> · 一机一码 · 校验全本地，不联网</p>
+      </div>
+      <div class="hero-art">
+        <div class="shot-frame">
+          <img src="assets/img/popover.png" alt="OneStep 菜单栏面板：顶栏六项实时指标与十个工具" loading="eager">
+        </div>
+        <div class="glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 数据条 -->
+  <section class="stats">
+    <div class="wrap stats-inner">
+      <div><b>10</b><span>常用工具</span></div>
+      <div><b>33</b><span>开发者小工具</span></div>
+      <div><b>1s</b><span>温度采样</span></div>
+      <div><b>0</b><span>数据上传</span></div>
+    </div>
+  </section>
+
+  <!-- 功能 -->
+  <section id="features" class="section">
+    <div class="wrap">
+      <h2 class="section-title">菜单栏里的十件事</h2>
+      <p class="section-sub">悬停即时预览，点击进入详情页；需要大屏的工具可钉成独立窗口。</p>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card-icon" style="--c:#3b82f6">🌀</div>
+          <h3>风扇控制</h3>
+          <p>CPU / GPU / 内存 / 磁盘四路温度、实时转速，支持手动调速与温度曲线，SMC 原生写入。</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" style="--c:#22c55e">🔋</div>
+          <h3>电池状态</h3>
+          <p>电量、充放电状态、循环次数、剩余时间与电源连接状态，一行看清。</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" style="--c:#0ea5e9">🌐</div>
+          <h3>网络监测</h3>
+          <p>上下行速率、网卡与 IP、VPN/代理隧道识别、端口连通性测试与 HTTP 调试。</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" style="--c:#6366f1">📶</div>
+          <h3>蓝牙设备</h3>
+          <p>已连接设备与电量一览，支持直接连接 / 断开，常用外设一键切换。</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" style="--c:#8b5cf6">🔊</div>
+          <h3>声音控制</h3>
+          <p>输入输出设备一键切换，各自独立音量与静音，系统设置里的操作搬到菜单栏。</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" style="--c:#a855f7">🔑</div>
+          <h3>密码生成</h3>
+          <p>拒绝采样保证均匀，可配置字符集、排除易混字符，实时熵值与强度评估。</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" style="--c:#f97316">{}</div>
+          <h3>代码格式化</h3>
+          <p>JSON / YAML / SQL / HTML / CSS 一键美化与压缩，侧栏直达、键盘流操作。</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" style="--c:#14b8a6">✅</div>
+          <h3>待办清单</h3>
+          <p>轻量待办，支持优先级与截止日期，本地存储，菜单栏直接勾选。</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" style="--c:#f59e0b">☀️</div>
+          <h3>保持亮屏</h3>
+          <p>演示、编译、下载时防止屏幕休眠，到点自动恢复，无需改系统设置。</p>
+        </article>
+        <article class="card card-accent">
+          <div class="card-icon" style="--c:#8b5cf6">🧰</div>
+          <h3>开发者工具箱</h3>
+          <p>33 个在线小工具，左右分栏：进制换算、JSON/XML/YAML、Base64、哈希、子网、Cron、编码转换……</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 工具箱 -->
+  <section id="toolbox" class="section section-alt">
+    <div class="wrap">
+      <div class="split">
+        <div class="split-copy">
+          <h2 class="section-title left">33 个开发者小工具<br>开一个窗口就够</h2>
+          <p class="section-sub left">
+            按计算、编码、安全、时间、网络、文本六类归档，侧栏搜索直达。
+            全部离线计算，不发一个请求。
+          </p>
+          <ul class="checklist">
+            <li>进制转换与运算、科学计算器、位运算、ARM/HEX 解析</li>
+            <li>Base64 / URL / Unicode 编码转换、JSON / XML / YAML / SQL 格式化</li>
+            <li>MD5 / SHA / AES-GCM 哈希加解密、UUID / GUID、序列号生成</li>
+            <li>时间戳转换、Cron 解析与下次执行时间、日期计算</li>
+            <li>子网计算、端口查询、本机网络信息、端口连通性、HTTP 调试</li>
+            <li>文本对比、替换、正则测试、颜色转换、金额大写、图片转换</li>
+          </ul>
+        </div>
+        <div class="split-art">
+          <div class="shot-frame shot-frame-wide">
+            <img src="assets/img/toolbox.png" alt="开发者工具箱：左侧分类侧栏与右侧工具面板" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <figure class="shot-frame">
+          <img src="assets/img/password.png" alt="密码生成悬浮窗：显示当前生效配置复杂度" loading="lazy">
+          <figcaption>密码生成：悬浮窗直接显示当前生效的字符集、字符池与强度</figcaption>
+        </figure>
+        <figure class="shot-frame">
+          <img src="assets/img/audio.png" alt="声音设置：输入输出设备切换与音量" loading="lazy">
+          <figcaption>声音：输入 / 输出设备一键切换，各自独立音量</figcaption>
+        </figure>
+        <figure class="shot-frame">
+          <img src="assets/img/fan.png" alt="风扇控制：手动调速与温度曲线" loading="lazy">
+          <figcaption>风扇：手动调速与温度曲线，SMC 原生写入</figcaption>
+        </figure>
+        <figure class="shot-frame">
+          <img src="assets/img/activation.png" alt="激活窗口：机器码与授权码输入" loading="lazy">
+          <figcaption>授权：一机一码，机器码本地生成，校验全离线</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 授权 -->
+  <section id="license" class="section">
+    <div class="wrap">
+      <h2 class="section-title">授权方式</h2>
+      <p class="section-sub">简单说清楚，不玩套路。</p>
+
+      <div class="grid grid-3">
+        <article class="card">
+          <div class="card-icon" style="--c:#22c55e">🎁</div>
+          <h3>7 天完整试用</h3>
+          <p>首次安装即可使用全部功能，包括风扇调速、保持亮屏与声音调节。</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" style="--c:#3b82f6">🔐</div>
+          <h3>一机一码</h3>
+          <p>授权码绑定你的 Mac，拿到机器码发给卖家即可签发，换机可免费重签。</p>
+        </article>
+        <article class="card">
+          <div class="card-icon" style="--c:#8b5cf6">🛡️</div>
+          <h3>离线校验</h3>
+          <p>授权校验全部在本机完成，不联网、不上传任何数据，关掉网络也能用。</p>
+        </article>
+      </div>
+
+      <div class="note">
+        <b>到期后会怎样？</b>
+        进入只读模式：所有查看类功能照常，只有需要改写系统状态的操作（风扇调速、保持亮屏、声音调节）会被锁定并引导激活。
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section section-alt">
+    <div class="wrap wrap-narrow">
+      <h2 class="section-title">常见问题</h2>
+      <div class="faq">
+        <details>
+          <summary>支持哪些 macOS 版本？</summary>
+          <p>macOS 14 Sonoma 及以上（Apple Silicon 与 Intel 均可）。</p>
+        </details>
+        <details>
+          <summary>需要管理员权限吗？</summary>
+          <p>只有调节风扇转速需要——首次会弹一次系统授权，用于安装一个仅能读写风扇键的受限 helper。其他功能都不需要。</p>
+        </details>
+        <details>
+          <summary>换电脑 / 重装系统后授权还有效吗？</summary>
+          <p>重装系统不受影响，机器码基于设备序列号。更换整机属于新机器，联系卖家免费重签即可。</p>
+        </details>
+        <details>
+          <summary>会上传我的使用数据吗？</summary>
+          <p>不会。应用不联网，授权校验也是本地完成的。</p>
+        </details>
+        <details>
+          <summary>怎么升级？</summary>
+          <p>从下载页取最新版本覆盖安装即可，已授权用户升级免费，授权码不变。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 下载 -->
+  <section id="download" class="section download">
+    <div class="wrap wrap-narrow center">
+      <h2 class="section-title">开始使用</h2>
+      <p class="section-sub">macOS 14+，约 12 MB，含 7 天完整试用。</p>
+      <a class="btn btn-primary btn-lg" id="download-btn" href="https://github.com/athlonreg/OneStep-website/releases/latest/download/OneStep-0.1.0.zip">
+        下载 OneStep 0.1.0
+      </a>
+      <p class="micro" id="download-note">
+        下载后解压，把 OneStep.app 拖进「应用程序」即可。<br>
+        首次打开若提示「无法验证开发者」，在 <b>系统设置 → 隐私与安全性</b> 中点「仍要打开」。
+      </p>
+      <p class="micro"><a class="link" href="https://github.com/athlonreg/OneStep-website/releases">查看全部版本</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span>© 2026 OneStep</span>
+    <span class="dot">·</span>
+    <a class="link" href="https://github.com/athlonreg/OneStep-website/releases">版本发布</a>
+    <span class="dot">·</span>
+    <a class="link" href="#license">授权说明</a>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
