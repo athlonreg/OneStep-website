@@ -48,7 +48,7 @@
   var note = document.getElementById('download-note');
   if (!button) return;
 
-  var asset = 'https://github.com/athlonreg/OneStep-website/releases/latest/download/OneStep-0.1.0.zip';
+  var asset = 'https://github.com/athlonreg/OneStep-website/releases/latest/download/OneStep-1.0.1.zip';
   var probe = new Image();
   probe.onload = function () { /* 资源存在，保持直链 */ };
   probe.onerror = function () {
