@@ -2,6 +2,38 @@
 (function () {
   'use strict';
 
+  // 主题切换：深浅两套截图随主题替换（head 内联脚本已先落定 data-theme 防闪烁）
+  var THEME_KEY = 'onestep-theme';
+  var root = document.documentElement;
+
+  function applyTheme(theme) {
+    root.dataset.theme = theme;
+    var imgs = document.querySelectorAll('img[data-dark][data-light]');
+    for (var i = 0; i < imgs.length; i++) {
+      var next = theme === 'light' ? imgs[i].getAttribute('data-light') : imgs[i].getAttribute('data-dark');
+      if (next && imgs[i].getAttribute('src') !== next) imgs[i].setAttribute('src', next);
+    }
+  }
+
+  var themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    // 首屏图片的 src 在 HTML 里写的是深色版，这里按当前主题一次校正
+    applyTheme(root.dataset.theme === 'light' ? 'light' : 'dark');
+    themeToggle.addEventListener('click', function () {
+      var next = root.dataset.theme === 'light' ? 'dark' : 'light';
+      try { localStorage.setItem(THEME_KEY, next); } catch (e) {}
+      applyTheme(next);
+    });
+    // 未手动选择过时跟随系统变化
+    var mq = window.matchMedia('(prefers-color-scheme: light)');
+    var onSchemeChange = function (ev) {
+      if (localStorage.getItem(THEME_KEY)) return;
+      applyTheme(ev.matches ? 'light' : 'dark');
+    };
+    if (mq.addEventListener) mq.addEventListener('change', onSchemeChange);
+    else if (mq.addListener) mq.addListener(onSchemeChange);
+  }
+
   // 滚动进场
   var targets = document.querySelectorAll(
     '.card, figure.shot-frame, .checklist li, .stats-inner div, .note'
