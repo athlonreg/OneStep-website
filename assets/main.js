@@ -27,6 +27,22 @@
     targets.forEach(function (el) { el.classList.add('in'); });
   }
 
+  // 赞助弹窗：导航按钮打开，遮罩 / 关闭键 / Esc 关闭
+  var sponsorBtn = document.getElementById('sponsor-btn');
+  var sponsorModal = document.getElementById('sponsor-modal');
+  if (sponsorBtn && sponsorModal) {
+    var closeModal = function () { sponsorModal.hidden = true; };
+    sponsorBtn.addEventListener('click', function () { sponsorModal.hidden = false; });
+    sponsorModal.addEventListener('click', function (e) {
+      if (e.target.hasAttribute('data-close')) closeModal();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !sponsorModal.hidden) closeModal();
+    });
+    // 直达链接：?sponsor=1 自动打开（便于分享赞助入口）
+    if (new URLSearchParams(location.search).has('sponsor')) sponsorModal.hidden = false;
+  }
+
   // 下载按钮始终指向 latest release 资产；文件名缺失时退回 releases 页面
   var button = document.getElementById('download-btn');
   var note = document.getElementById('download-note');

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>OneStep</title>
+    <link>https://onestep.tlhub.cn/</link>
+    <description>OneStep 更新源</description>
+    <language>zh-CN</language>
+    <item>
+      <title>1.0</title>
+      <pubDate>Mon, 19 Oct 2026 16:27:00 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>1.0 正式版</p>
+        <ul>
+          <li>新增「功能显示」：顶部指标与一级功能可逐项显隐</li>
+          <li>菜单栏读数改为单选：电量 / 网速 / CPU 温度</li>
+          <li>内置检查更新与自动更新</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.0/OneStep-1.0.zip"
+        sparkle:edSignature="aK3CJt5R5WMu3vQ4ecbb9W13KENsRRrM6KU1ZZDN2/5tRprNKzdd8nU6ow19sOG2GkyTHbucSMkdItA3j4ekAg=="
+        length="4787407"
+        type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
