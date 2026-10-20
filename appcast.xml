@@ -8,22 +8,22 @@
     <description>OneStep 更新源</description>
     <language>zh-CN</language>
     <item>
-      <title>1.0.6</title>
-      <pubDate>Tue, 20 Oct 2026 02:32:00 +0000</pubDate>
-      <sparkle:version>8</sparkle:version>
-      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+      <title>1.0.7</title>
+      <pubDate>Tue, 20 Oct 2026 02:48:00 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <p>1.0.6 更新</p>
+        <p>1.0.7 更新</p>
         <ul>
-          <li>传感器诊断改为「设置 → 关于」中的一键导出：生成离线文本报告，
-              分批读取 SMC，不再因渲染上千行列表而卡顿</li>
+          <li>机型本身没有的传感器（如 Mac mini M6 无内存 / 磁盘温度传感器）
+              会在指标上给出说明，不再让人误以为读取失败</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.6/OneStep-1.0.6.zip"
-        sparkle:edSignature="mLdwyPjuaUtI0xy90vN1yXFSxAcaMsSPDBSrKjO7G+BYuySn3Ny4313j6eVV/xM/DnbePMf3+WohGlYIuNx+AQ=="
-        length="4852501"
+        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.7/OneStep-1.0.7.zip"
+        sparkle:edSignature="CiR7rCYLrC/c/zuP+kVX2t0MpT7JHSrpxD8jih4KM1Woyip3GSalpShAsB34buS83QQdoqNPZTENIle/Cj7ADw=="
+        length="4862390"
         type="application/octet-stream" />
     </item>
   </channel>
