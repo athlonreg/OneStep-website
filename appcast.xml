@@ -8,22 +8,23 @@
     <description>OneStep 更新源</description>
     <language>zh-CN</language>
     <item>
-      <title>1.0.4</title>
-      <pubDate>Tue, 20 Oct 2026 02:03:00 +0000</pubDate>
-      <sparkle:version>6</sparkle:version>
-      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <title>1.0.5</title>
+      <pubDate>Tue, 20 Oct 2026 02:11:00 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <p>1.0.4 更新</p>
+        <p>1.0.5 更新</p>
         <ul>
-          <li>修复工具悬浮预览窗高度不随内容变化的问题：蓝牙设备列表、声音设备切换等
-              内容加载或展开后，预览窗会自动扩展，不再出现内容被裁切</li>
+          <li>新增「SMC 传感器诊断」（开发者工具箱）：机型信息与全部 SMC 键的
+              类型 / 原始字节 / 解码值，一键复制，用于排查新机型读不到的温度与风扇</li>
+          <li>风扇转速读不到时显示「—」而非 0，避免被误读为风扇停转</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.4/OneStep-1.0.4.zip"
-        sparkle:edSignature="/O1/pxV5vQJOCCy7w1A/LDf2cXmN3eAJO2KvFKXPCSy8TjGm1Lu05XZ9WE932CeUP0NeUcKjErbXKMcxJyAZBA=="
-        length="4814281"
+        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.5/OneStep-1.0.5.zip"
+        sparkle:edSignature="yKKpPknXh3OmybbdgusW70YoxBpteBagg+v87IJQshbvEgNuqfdswN0xacCJgJ6boOqxyM8tHCY2AhegGG+pCw=="
+        length="4864265"
         type="application/octet-stream" />
     </item>
   </channel>
