@@ -8,22 +8,22 @@
     <description>OneStep 更新源</description>
     <language>zh-CN</language>
     <item>
-      <title>1.0.2</title>
-      <pubDate>Tue, 20 Oct 2026 00:57:00 +0000</pubDate>
-      <sparkle:version>4</sparkle:version>
-      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <title>1.0.3</title>
+      <pubDate>Tue, 20 Oct 2026 01:18:00 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <p>1.0.2 更新</p>
+        <p>1.0.3 更新</p>
         <ul>
-          <li>修复「本机网络信息」：一块网卡绑定多个网段 IP 时重复显示多行的问题，
-              现在按网卡合并、IP 去重</li>
+          <li>「本机网络信息」：网卡配置多个网段 IP（调试设备常见）时，
+              每个 IP 独立一行展示，便于逐个复制；不同网段的 IP 全部保留</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.2/OneStep-1.0.2.zip"
-        sparkle:edSignature="s/cjsk603MeaqmTrMvM8ueanl8bfAPMqNRWbz865HODaBjPcWNDL5V75C8rJTrHWUgHgDSQvmzaKif/rajEcAQ=="
-        length="4804996"
+        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.3/OneStep-1.0.3.zip"
+        sparkle:edSignature="oQss/p4+9YgWXmQSzXpn5kbkdg39tV11L7jsN4ESL5WmqhTr/z6lyI7wC6H8QkRAFhnuM/13BHWOTYgORQXpCg=="
+        length="4805219"
         type="application/octet-stream" />
     </item>
   </channel>
