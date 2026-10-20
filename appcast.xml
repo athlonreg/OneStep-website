@@ -8,23 +8,22 @@
     <description>OneStep 更新源</description>
     <language>zh-CN</language>
     <item>
-      <title>1.0.1</title>
-      <pubDate>Mon, 19 Oct 2026 16:44:00 +0000</pubDate>
-      <sparkle:version>3</sparkle:version>
-      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <title>1.0.2</title>
+      <pubDate>Tue, 20 Oct 2026 00:57:00 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <p>1.0.1 更新</p>
+        <p>1.0.2 更新</p>
         <ul>
-          <li>更新与权限弹窗改用简体中文</li>
-          <li>修复更新窗口中的应用图标显示</li>
-          <li>移除关于页底部说明文字</li>
+          <li>修复「本机网络信息」：一块网卡绑定多个网段 IP 时重复显示多行的问题，
+              现在按网卡合并、IP 去重</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.1/OneStep-1.0.1.zip"
-        sparkle:edSignature="/7mHQ2goITmn+AJJlOuKrkcSblEPoDSuEAmVAc8u0PmF2cHBfs4HIMQAqJGq+3k+C7lgR7qzOuYd9YM5cTJnAQ=="
-        length="4787319"
+        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.2/OneStep-1.0.2.zip"
+        sparkle:edSignature="s/cjsk603MeaqmTrMvM8ueanl8bfAPMqNRWbz865HODaBjPcWNDL5V75C8rJTrHWUgHgDSQvmzaKif/rajEcAQ=="
+        length="4804996"
         type="application/octet-stream" />
     </item>
   </channel>
