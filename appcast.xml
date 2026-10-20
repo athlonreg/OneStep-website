@@ -8,23 +8,22 @@
     <description>OneStep 更新源</description>
     <language>zh-CN</language>
     <item>
-      <title>1.0.5</title>
-      <pubDate>Tue, 20 Oct 2026 02:11:00 +0000</pubDate>
-      <sparkle:version>7</sparkle:version>
-      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+      <title>1.0.6</title>
+      <pubDate>Tue, 20 Oct 2026 02:32:00 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <p>1.0.5 更新</p>
+        <p>1.0.6 更新</p>
         <ul>
-          <li>新增「SMC 传感器诊断」（开发者工具箱）：机型信息与全部 SMC 键的
-              类型 / 原始字节 / 解码值，一键复制，用于排查新机型读不到的温度与风扇</li>
-          <li>风扇转速读不到时显示「—」而非 0，避免被误读为风扇停转</li>
+          <li>传感器诊断改为「设置 → 关于」中的一键导出：生成离线文本报告，
+              分批读取 SMC，不再因渲染上千行列表而卡顿</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.5/OneStep-1.0.5.zip"
-        sparkle:edSignature="yKKpPknXh3OmybbdgusW70YoxBpteBagg+v87IJQshbvEgNuqfdswN0xacCJgJ6boOqxyM8tHCY2AhegGG+pCw=="
-        length="4864265"
+        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.6/OneStep-1.0.6.zip"
+        sparkle:edSignature="mLdwyPjuaUtI0xy90vN1yXFSxAcaMsSPDBSrKjO7G+BYuySn3Ny4313j6eVV/xM/DnbePMf3+WohGlYIuNx+AQ=="
+        length="4852501"
         type="application/octet-stream" />
     </item>
   </channel>
