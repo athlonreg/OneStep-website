@@ -8,22 +8,21 @@
     <description>OneStep 更新源</description>
     <language>zh-CN</language>
     <item>
-      <title>1.0.7</title>
-      <pubDate>Tue, 20 Oct 2026 02:48:00 +0000</pubDate>
-      <sparkle:version>9</sparkle:version>
-      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <title>1.0.8</title>
+      <pubDate>Wed, 21 Oct 2026 03:31:00 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <p>1.0.7 更新</p>
+        <p>1.0.8 更新</p>
         <ul>
-          <li>机型本身没有的传感器（如 Mac mini M6 无内存 / 磁盘温度传感器）
-              会在指标上给出说明，不再让人误以为读取失败</li>
+          <li>风扇低负载自动停转时显示「停转」，不再显示容易被误认为故障的 0</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.7/OneStep-1.0.7.zip"
-        sparkle:edSignature="CiR7rCYLrC/c/zuP+kVX2t0MpT7JHSrpxD8jih4KM1Woyip3GSalpShAsB34buS83QQdoqNPZTENIle/Cj7ADw=="
-        length="4862390"
+        url="https://github.com/athlonreg/OneStep-website/releases/download/v1.0.8/OneStep-1.0.8.zip"
+        sparkle:edSignature="1Yb+DN+6j86hEec8KwtbnU0ScngCl4sgOfWKbA6oI81waZf45tjMch3El5hSQZgXDPETp256rVpK5sM+LZ9xBA=="
+        length="4861886"
         type="application/octet-stream" />
     </item>
   </channel>
